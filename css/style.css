@@ -922,22 +922,22 @@
 
 @font-face {
   font-family: "MullerRegular";
-  src: url("/fonts/MullerRegular.woff2") format("woff2");
+  src: url("../fonts/MullerRegular.woff2") format("woff2");
 }
 
 @font-face {
   font-family: "MullerBold";
-  src: url("/fonts/MullerBold.woff2") format("woff2");
+  src: url("../fonts/MullerBold.woff2") format("woff2");
 }
 
 @font-face {
   font-family: "M-Medium";
-  src: url("/fonts/MullerMedium.woff2") format("woff2");
+  src: url("../fonts/MullerMedium.woff2") format("woff2");
 }
 
 @font-face {
   font-family: "Axiforma";
-  src: url("/font/Axiforma-ExtraBold.woff2") format("woff2");
+  src: url("../font/Axiforma-ExtraBold.woff2") format("woff2");
 }
 
 body {
@@ -985,7 +985,7 @@ body {
   height: 30px;
   order: 1;
   align-self: center;
-  background-image: url("/img/svg/burger.svg");
+  background-image: url("../img/svg/burger.svg");
   transition: 0.2s ease;
 }
 
@@ -999,7 +999,7 @@ body {
   height: 30px;
   order: 1;
   align-self: center;
-  background-image: url("/img/svg/close.svg");
+  background-image: url("../img/svg/close.svg");
   transition: 0.2s ease;
 }
 
@@ -1047,7 +1047,7 @@ body {
 }
 
 .no-webp .home {
-  background-image: url("/img/bg.png"); }
+  background-image: url("../img/bg.png"); }
 
 .home {
   height: 100vh;
@@ -1077,7 +1077,7 @@ body {
 }
 
 .star::after {
-  content: url("/img/svg/star.svg");
+  content: url("../img/svg/star.svg");
   width: 44px;
   height: 44px;
   position: absolute;
@@ -1095,7 +1095,7 @@ body {
 }
 
 .user::after {
-  content: url("/img/svg/user.svg");
+  content: url("../img/svg/user.svg");
   width: 40px;
   height: 40px;
   position: absolute;
@@ -1113,7 +1113,7 @@ body {
 }
 
 .diagramm::after {
-  content: url("/img/svg/diagram.svg");
+  content: url("../img/svg/diagram.svg");
   width: 36px;
   height: 36px;
   position: absolute;
@@ -1131,7 +1131,7 @@ body {
 }
 
 .level::after {
-  content: url("/img/svg/level-up.svg");
+  content: url("../img/svg/level-up.svg");
   width: 40px;
   height: 40px;
   position: absolute;
@@ -5441,4 +5441,4 @@ body {
   }
 }
 
-.webp .home { background-image: url(/img/bg.webp); }
+.webp .home { background-image: url(../img/bg.webp); }
