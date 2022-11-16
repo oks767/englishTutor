@@ -1207,11 +1207,11 @@ body {
 .vk-icon {
   background-image: url("../img/svg/vk.svg");
   width: 64px;
-  height: 64px;
+  height: 54px;
   position: absolute;
-  top: -3%;
+  top: -6%;
   left: 50%;
-  transform: translate(-50%, 3%);
+  transform: translate(-50%, 6%);
 }
 
 .avito-bg {
@@ -1221,8 +1221,8 @@ body {
   border-radius: 15px;
   position: absolute;
   left: 50%;
-  top: -3%;
-  transform: translate(-50%, 3%);
+  top: -6%;
+  transform: translate(-50%, 6%);
 }
 
 .avito-icon {
@@ -1345,7 +1345,6 @@ body {
 .text {
   color: #212121;
   font-family: "MullerRegular";
-  text-align: center;
 }
 
 .card-sale {
@@ -4189,7 +4188,6 @@ input:focus {
   }
 
   .learning__img {
-    margin-top: 20px;
     height: 398px;
   }
 
@@ -4206,6 +4204,15 @@ input:focus {
     width: 109px;
     font-size: 12px;
     padding: 10px;
+  }
+
+  .sale {
+    padding-top: 87px;
+  }
+
+  .text {
+    padding-top: 50px;
+    text-align: center;
   }
 
   .methods__wrapper {
@@ -5156,17 +5163,40 @@ input:focus {
 
   .testimonials__vk {
     display: flex;
-    justify-content: space-between;
   }
 
   .testimonials__card {
     width: 361px;
-    margin-top: 60px;
+    margin-top: 30px;
+    margin-left: 25px;
+    height: 508px;
   }
 
   .testimonials__avito {
     display: flex;
-    justify-content: space-between;
+    height: 656px;
+  }
+
+  .testimonials__card--avito {
+    height: 587px;
+  }
+
+  .user__name--avito {
+    text-align: left;
+    margin-top: 30px;
+    margin-left: 20px;
+  }
+
+  .testimonials__text--avito {
+    margin-top: -10px;
+  }
+
+  .user__name--vk {
+    margin-top: 40px;
+  }
+
+  .testimonials__text--vk {
+    margin-top: 5px;
   }
 
   .sale__card {
@@ -5281,6 +5311,7 @@ input:focus {
 
   .home__advantages-wrap {
     display: flex;
+    margin-top: -60px;
   }
 
   .text-right {
@@ -6202,16 +6233,19 @@ input:focus {
   .testimonials__title {
     font-size: 40px;
     line-height: 60px;
-    margin-top: 30px;
+    margin-top: 10px;
   }
 
   .testimonials__vk {
-    margin-top: 10px;
-    width: 100%;
+    margin-top: 27px;
+    width: 1201px;
+    margin-left: 20px;
   }
 
   .testimonials__avito {
     margin-top: 30px;
+    width: 1201px;
+    margin-left: 20px;
   }
 
   .user__name {
@@ -6227,17 +6261,26 @@ input:focus {
   .learning__title {
     font-size: 40px;
     line-height: 51px;
-    margin-top: 10px;
+    margin-top: -5px;
   }
 
   .list-item {
     font-size: 22px;
-    line-height: 34px;
+    line-height: 34.23px;
   }
 
   .learning__img img {
     height: 398px;
     width: 584px;
+  }
+
+  .learning__list {
+    margin-top: -23px;
+    margin-left: 10px;
+  }
+
+  .learning__left {
+    margin-right: 30px;
   }
 
   .text {
@@ -6353,6 +6396,10 @@ input:focus {
     border-bottom: none;
   }
 
+  .right-title--work {
+    margin-top: 40px;
+  }
+
   .materials__title {
     font-size: 32px;
     line-height: 41px;
@@ -6438,7 +6485,7 @@ input:focus {
     height: 70px;
     width: 336px;
     margin-left: 140px;
-    margin-top: 23px;
+    margin-top: 43px;
   }
 
   .home {
